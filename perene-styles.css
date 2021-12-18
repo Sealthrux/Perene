@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    left: 0;
+    top: 145px;
+  }
+  header.topbarmain
+  {
+    background-color: #FFFFFF;
+    max-width: 1920px;
+    max-height: 145px;
+  }

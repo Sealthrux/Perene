@@ -27,10 +27,7 @@ nav {
 .logo-box {
   margin-left: -20px;
 }
-.search-box
-{
-  margin-left: -200px;
-}
+
 .logo-top {
   height: 75px;
 }
@@ -47,23 +44,21 @@ nav {
 .topbar-ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 55%;
   text-decoration: none;
   list-style: none;
-  margin-right: 5%;
 }
-.search-top
-{
+.search-top {
   width: 40px;
   height: 40px;
+  margin-top: 25%;
 }
-.burger
-{
+.burger {
   display: none;
 }
-.burger div
-{
-  width:25px;
+.burger div {
+  width: 25px;
   height: 3px;
   background-color: #222222;
   margin: 5px;
@@ -71,7 +66,6 @@ nav {
   border-bottom-left-radius: 3px 2px;
   border-top-right-radius: 3px 2px;
   border-bottom-right-radius: 3px 2px;
-
 }
 h1 {
   color: #222222;
@@ -124,9 +118,9 @@ h1 {
   padding-left: 10%;
   z-index: 1;
 }
-.smallabout{
+.smallabout {
   font-family: "Montserrat";
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 30px;
   font-weight: medium;
   text-align: left;
@@ -135,25 +129,26 @@ h1 {
   margin-right: 150px;
   margin-bottom: 200px;
 }
-.LineStartGal{
+.LineStartGal {
   color: #858585;
   display: block;
   margin-top: 0;
   margin-bottom: 0;
-  width:100%;
+  width: 100%;
   border-style: inset;
   border-width: 1px;
 }
-@media screen and (max-width:1024px){
-  
+@media screen and (max-width: 1024px) {
 }
 
-@media screen and (max-width:768px){
-  body{
+@media screen and (max-width: 768px) {
+  body {
     overflow-x: hidden;
   }
-  .topbar-ul
-  {
+  .burger{
+    display: block;
+  }
+  .topbar-ul {
     position: absolute;
     right: 0px;
     height: 92vh;
@@ -165,4 +160,50 @@ h1 {
     width: 50%;
     transform: translateX(100%);
   }
+}
+.GalImagePresetLeft {
+  height: 1080px;
+  object-position: center center;
+  margin-left: -25%;
+}
+.GalImagePresetRight {
+  height: 1080px;
+  object-position: center center;
+  margin-left: 750px;
+}
+
+.GalImageBox {
+  object-position: center center;
+  object-fit: cover;
+  width: 50%;
+  overflow-x: hidden;
+}
+.GalBoxLeft {
+  position:relative;
+  width: 100%;
+}
+.GalBoxRight {
+  position:relative;
+  width: 100%;
+}
+.GalBlock{
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.Block{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.GalBlockBackground{
+background-color: #222222;
+}
+.GalBlockTransparent{
+  background-color: transparent;
 }

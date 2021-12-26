@@ -37,7 +37,7 @@ nav {
   text-decoration: none;
   color: #222222;
   font-family: "Montserrat";
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-weight: SemiBold;
 }
 .topbar-ul {
@@ -95,7 +95,7 @@ h1 {
   position: absolute;
   text-align: left;
   font-family: "Montserrat";
-  font-size: 6rem;
+  font-size: 6.4rem;
   font-weight: bold;
   top: 100px;
   left: 100px;
@@ -106,7 +106,7 @@ h1 {
   position: absolute;
   text-align: left;
   font-family: "Montserrat";
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: medium;
   top: 200px;
   left: 102px;
@@ -121,7 +121,7 @@ h1 {
 .smallabout {
   font-family: "Montserrat";
   color: #ffffff;
-  font-size: 30px;
+  font-size: 1.5rem;
   font-weight: medium;
   text-align: left;
   margin-top: 150px;

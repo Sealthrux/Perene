@@ -97,7 +97,7 @@ h1 {
   font-family: "Montserrat";
   font-size: 6.4rem;
   font-weight: bold;
-  top: 100px;
+  top: 18rem;
   left: 100px;
   margin: 0;
 }
@@ -108,7 +108,7 @@ h1 {
   font-family: "Montserrat";
   font-size: 2.3rem;
   font-weight: medium;
-  top: 200px;
+  top: 24.4rem;
   left: 102px;
   margin: 0;
 }
@@ -183,13 +183,18 @@ h1 {
   width: 100%;
   text-align: left;
 }
-.DivLeftBlock {
-  align-items: left;
-  margin-left: 100px;
-}
 .GalBoxRight {
   position: relative;
   width: 100%;
+  text-align: right;
+}
+.DivLeftBlock {
+  text-align: left;
+  margin-left: 110px;
+}
+.DivRightBlock{
+  text-align: right;
+  margin-right: 110px;
 }
 .GalBlock {
   position: absolute;
@@ -202,7 +207,6 @@ h1 {
   width: 100%;
   height: 100%;
   display: flex;
-  /*align-items: center; */
   flex-direction: column;
   justify-content: center;
 }
@@ -212,7 +216,7 @@ h1 {
 .GalBlockTransparent {
   background-color: transparent;
 }
-.GalTextAutor {
+.GalTextAutorLeft {
   font-family: "Montserrat";
   font-size: 25px;
   font-weight: Bold;
@@ -220,7 +224,15 @@ h1 {
   text-align: left;
   margin: 0;
 }
-.GalTextTitulo {
+.GalTextAutorRight {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: Bold;
+  color: #ffffff;
+  text-align: right;
+  margin: 0;
+}
+.GalTextTituloLeft {
   font-family: "Montserrat";
   font-size: 50px;
   font-weight: Bold;
@@ -229,8 +241,17 @@ h1 {
   margin: 0;
   margin-top: 10px;
 }
-.GalTextMain {
-  width: 500px;
+.GalTextTituloRight {
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: Bold;
+  color: #ffffff;
+  text-align: right;
+  margin: 0;
+  margin-top: 10px;
+}
+.GalTextMainLeft {
+  width: 560px;
   font-family: "Montserrat";
   font-size: 20px;
   font-weight: 400;
@@ -239,20 +260,46 @@ h1 {
   margin: 0;
   margin-top: 15px;
 }
-.VerMaisBtn {
+.GalTextMainRight {
+  width: 560px;
   font-family: "Montserrat";
   font-size: 20px;
-  font-weight: Bold;
-  color: #6fa550;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: right;
+  margin: 0;
+  margin-top: 15px;
 }
-
+.BtnVerMais {
+  font-family: "Montserrat";
+  border: 2px solid #6fa550;
+  font-size: 20px;
+  font-weight: Bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.VerMaisText{
+  text-decoration: none;
+  color: #6fa550;
+  margin: 10px;
+}
 .wave-wrap {
-  margin-top: 20px;
-
+  margin-top: 15px;
+  display: flex;
   align-items: center;
 }
-#wavesurfer_1 {
-  width: 90%;
+#waveform_1 {
+  margin-left: 20px;
+  width: 55%;
+}
+#waveform_2 {
+  margin-left: 20px;
+  width: 55%;
 }
 .WaveControls{
   width: 20px;

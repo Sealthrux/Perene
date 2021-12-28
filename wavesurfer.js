@@ -5,11 +5,10 @@ var wavesurfer_1 = WaveSurfer.create({
   progressColor: "#6fa550",
   barWidth: 3,
   barHeight: 0.6,
-  responsive: true,
-  hideScrollbar: true,
   cursorWidth: 0,
-  maxCanvasWidth: 4,
+  maxCanvasWidth: 4000,
   height: 120,
+  barMinHeight: 0.1
 });
 wavesurfer_1.load("audios/wave1test.mp3");
 
@@ -21,10 +20,26 @@ PlayBtn_1.onclick = function () {
     PlayBtn_1.src = "imagens/play.png";
   }
 };
-
+//wave2
+var PlayBtn_2 = document.getElementById("PlayBtn_2");
 var wavesurfer_2 = WaveSurfer.create({
   container: "#waveform_2",
-  waveColor: "#white",
+  waveColor: "white",
   progressColor: "#6fa550",
+  barWidth: 3,
+  barHeight: 0.6,
+  cursorWidth: 0,
+  maxCanvasWidth: 4000,
+  height: 120,
+  barMinHeight: 0.1
 });
-wavesurfer_2.load("audios/Scott Bradford.mp3");
+wavesurfer_2.load("audios/wave1test.mp3");
+
+PlayBtn_2.onclick = function () {
+  wavesurfer_2.playPause();
+  if (PlayBtn_2.src.includes("play.png")) {
+    PlayBtn_2.src = "imagens/pause.png";
+  } else {
+    PlayBtn_2.src = "imagens/play.png";
+  }
+};

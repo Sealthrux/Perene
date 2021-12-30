@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -11,16 +14,17 @@ main {
   position: relative;
 }
 .topbarmain {
-  background-color: #ffffff;
   max-width: 100%;
-  max-height: 22vhpx;
+  position:fixed;
+  z-index: 2;
+  width: 100vw;
 }
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 145px;
-  background-color: #ffffff;
+  min-height: 140px;
+  background: linear-gradient(180deg, #ffffff 90%, transparent 100%);
   font-family: "Montserrat";
   font-weight: SemiBold;
   font-size: 30px;
@@ -138,29 +142,6 @@ h1 {
   border-style: inset;
   border-width: 1px;
 }
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-  .burger {
-    display: block;
-  }
-  .topbar-ul {
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    display: flex;
-    background-color: #ffffff;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    transform: translateX(100%);
-  }
-}
 .GalImagePresetLeft {
   height: 1080px;
   object-position: center center;
@@ -219,7 +200,7 @@ h1 {
 .GalTextAutorLeft {
   font-family: "Montserrat";
   font-size: 25px;
-  font-weight: Bold;
+  font-weight: 600;
   color: #ffffff;
   text-align: left;
   margin: 0;
@@ -227,7 +208,7 @@ h1 {
 .GalTextAutorRight {
   font-family: "Montserrat";
   font-size: 25px;
-  font-weight: Bold;
+  font-weight: 600;
   color: #ffffff;
   text-align: right;
   margin: 0;
@@ -269,8 +250,10 @@ h1 {
   text-align: right;
   margin: 0;
   margin-top: 15px;
+  margin-right: 0;
+  margin-left: auto;
 }
-.BtnVerMais {
+.BtnVerMaisLeft {
   font-family: "Montserrat";
   border: 2px solid #6fa550;
   font-size: 20px;
@@ -282,6 +265,21 @@ h1 {
   height: 60px;
   border-radius: 30px;
   margin-top: 10px;
+}
+.BtnVerMaisRight {
+  font-family: "Montserrat";
+  border: 2px solid #6fa550;
+  font-size: 20px;
+  font-weight: Bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: auto;
 }
 .VerMaisText{
   text-decoration: none;
@@ -296,18 +294,66 @@ h1 {
 #waveform_1 {
   margin-left: 20px;
   width: 55%;
+  z-index: 1;
 }
 #waveform_2 {
   margin-left: 20px;
   width: 55%;
+  margin-right: 0;
+  z-index: 1;
 }
-.WaveControls{
+.WaveControlsLeft{
   width: 20px;
 }
+.WaveControlsRight{
+  width: 20px;
+  margin-right: 0;
+  margin-left: auto;
+}
 
-.WaveControls img{
+.WaveControlsLeft img{
   width: 20px;
   margin-right: 20px;
   cursor: pointer;
 
+}
+.WaveControlsRight img{
+  width: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .burger {
+    display: block;
+  }
+  .topbar-ul {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+  }
 }

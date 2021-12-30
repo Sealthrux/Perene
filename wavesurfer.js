@@ -8,7 +8,8 @@ var wavesurfer_1 = WaveSurfer.create({
   cursorWidth: 0,
   maxCanvasWidth: 4000,
   height: 120,
-  barMinHeight: 0.1
+  barMinHeight: 0.1,
+  hideScrollbar: true,
 });
 wavesurfer_1.load("audios/wave1test.mp3");
 
@@ -31,7 +32,8 @@ var wavesurfer_2 = WaveSurfer.create({
   cursorWidth: 0,
   maxCanvasWidth: 4000,
   height: 120,
-  barMinHeight: 0.1
+  barMinHeight: 0.1,
+  hideScrollbar: true,
 });
 wavesurfer_2.load("audios/wave1test.mp3");
 

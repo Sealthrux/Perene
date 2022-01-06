@@ -14,6 +14,7 @@ main {
   position: relative;
 }
 .topbarmain {
+  top: 0;
   max-width: 100%;
   position:fixed;
   z-index: 2;
@@ -35,7 +36,7 @@ nav {
 }
 
 .logo-top {
-  height: 75px;
+  height: 60px;
 }
 .topbar-hiper {
   display: inline-block;
@@ -100,7 +101,7 @@ h1 {
   position: absolute;
   text-align: left;
   font-family: "Montserrat";
-  font-size: 6.4rem;
+  font-size: 5.2rem;
   font-weight: bold;
   top: 18rem;
   left: 100px;
@@ -111,7 +112,7 @@ h1 {
   position: absolute;
   text-align: left;
   font-family: "Montserrat";
-  font-size: 2.3rem;
+  font-size: 2.9rem;
   font-weight: medium;
   top: 24.4rem;
   left: 102px;
@@ -150,6 +151,11 @@ h1 {
 }
 .GalImagePresetRight {
   height: 50rem;
+  object-position: center center;
+  margin-left: 750px;
+}
+.GalImagePresetRightParcerias {
+  height: 20rem;
   object-position: center center;
   margin-left: 750px;
 }
@@ -324,7 +330,29 @@ h1 {
   cursor: pointer;
 
 }
+.smalltextparcerias {
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 1.0rem;
+  font-weight: medium;
+  text-align: right;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+}
 
+.smalltextparceriasTitulo {
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 2.0rem;
+  font-weight: medium;
+  text-align: right;
+  margin-top: 150px;
+  margin-left: 120px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+}
 
 
 

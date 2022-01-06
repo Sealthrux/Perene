@@ -145,12 +145,12 @@ h1 {
   border-width: 1px;
 }
 .GalImagePresetLeft {
-  height: 50rem;
+  height: 60rem;
   object-position: center center;
   margin-left: -25%;
 }
 .GalImagePresetRight {
-  height: 50rem;
+  height: 60rem;
   object-position: center center;
   margin-left: 750px;
 }

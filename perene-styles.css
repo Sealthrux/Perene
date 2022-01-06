@@ -14,6 +14,7 @@ main {
   position: relative;
 }
 .topbarmain {
+  top:0;
   max-width: 100%;
   position:fixed;
   z-index: 2;
@@ -27,7 +28,7 @@ nav {
   background-color: #ffffff;
   /*background: linear-gradient(180deg, #ffffff 90%, transparent 100%);*/
   font-family: "Montserrat";
-  font-weight: SemiBold;
+  font-weight: 400;
   font-size: 30px;
 }
 .logo-box {
@@ -43,7 +44,7 @@ nav {
   color: #222222;
   font-family: "Montserrat";
   font-size: 1.8rem;
-  font-weight: SemiBold;
+  font-weight: 400;
 }
 .topbar-ul {
   display: flex;
@@ -111,8 +112,8 @@ h1 {
   position: absolute;
   text-align: left;
   font-family: "Montserrat";
-  font-size: 2.3rem;
-  font-weight: medium;
+  font-size: 3.5rem;
+  font-weight: 300;
   top: 24.4rem;
   left: 102px;
   margin: 0;

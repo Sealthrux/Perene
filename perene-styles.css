@@ -23,8 +23,9 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 140px;
-  background: linear-gradient(180deg, #ffffff 90%, transparent 100%);
+  min-height: 7rem;
+  background-color: #ffffff;
+  /*background: linear-gradient(180deg, #ffffff 90%, transparent 100%);*/
   font-family: "Montserrat";
   font-weight: SemiBold;
   font-size: 30px;
@@ -41,7 +42,7 @@ nav {
   text-decoration: none;
   color: #222222;
   font-family: "Montserrat";
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   font-weight: SemiBold;
 }
 .topbar-ul {

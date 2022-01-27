@@ -307,6 +307,17 @@ h1 {
   margin-right: 0;
   z-index: 1;
 }
+#waveform_3 {
+  margin-left: 20px;
+  width: 55%;
+  z-index: 1;
+}
+#waveform_4 {
+  margin-left: 20px;
+  width: 55%;
+  margin-right: 0;
+  z-index: 1;
+}
 .WaveControlsLeft{
   width: 20px;
 }

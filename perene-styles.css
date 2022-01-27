@@ -328,10 +328,95 @@ h1 {
   cursor: pointer;
 
 }
+.abouttext{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+}
 
+.abouttext2{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+}
 
+.Operene{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
 
+.title2{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
 
+.LineStartGalSobre2{
+  width: 40%;
+  margin-left: 150px;
+}
+
+.LineStartGalSobre{
+  width: 20%;
+  margin-left: 150px;
+}
+
+.lighttext{
+  font-weight: lighter;
+}
+
+.quote{
+  font-weight: bold;
+  font-style: italic;
+}
+.GalImagePresetLeftParcerias{
+  width: 500px;
+  display: inline-block;
+  margin-top: 9.5rem;
+
+}
+
+.smalltextparceriasTitulo{
+  display: inline-block;
+  margin-left: 5rem;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+  font-size: 3.6rem;
+  padding: 0;
+}
+.smalltextparcerias{
+  display: inline-block;
+  margin-left: 5rem;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1.6rem;
+  padding: 0;
+}
 
 
 

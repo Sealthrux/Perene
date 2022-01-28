@@ -101,7 +101,7 @@ h1 {
   position: absolute;
   text-align: left;
   font-family: "Montserrat";
-  font-size: 6.4rem;
+  font-size: 60pt;
   font-weight: bold;
   top: 18rem;
   left: 6rem;
@@ -112,9 +112,13 @@ h1 {
   position: absolute;
   text-align: left;
   font-family: "Montserrat";
-  font-size: 3.5rem;
+  font-size: 34.5pt;
   font-weight: 300;
+<<<<<<< Updated upstream
   top: 24.4rem;
+=======
+  top: 23rem;
+>>>>>>> Stashed changes
   left: 6rem;
   margin: 0;
 }
@@ -397,6 +401,43 @@ h1 {
   font-weight: lighter;
 }
 
+<<<<<<< HEAD
+.abouttext{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+}
+
+.abouttext2{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+}
+
+.Operene{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.title2{
+=======
 .quote{
   font-weight: bold;
   font-style: italic;
@@ -411,10 +452,16 @@ h1 {
 .smalltextparceriasTitulo{
   display: inline-block;
   margin-left: 5rem;
+>>>>>>> 23678eaed6d465afcdc2888881d172ae29d2cbe0
   font-family: "Montserrat";
   color: #ffffff;
   font-weight: bold;
   text-align: left;
+<<<<<<< HEAD
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+=======
   font-size: 3.6rem;
   padding: 0;
 }
@@ -427,6 +474,7 @@ h1 {
   text-align: left;
   font-size: 1.6rem;
   padding: 0;
+>>>>>>> 23678eaed6d465afcdc2888881d172ae29d2cbe0
 }
 /*sobre page*/
 .Operene{
@@ -455,6 +503,7 @@ h1 {
   margin-right: 150px;
 }
 
+<<<<<<< HEAD
 .lighttext{
   font-weight: lighter;
 }
@@ -568,10 +617,26 @@ h1 {
   padding-right: 40px;
   font-size: 1rem;
   text-align: left;
+=======
+.LineStartGalSobre2{
+  width: 40%;
+  margin-left: 150px;
+>>>>>>> 6bb39816e593d55488f32067971410138069a334
 }
 
+.LineStartGalSobre{
+  width: 20%;
+  margin-left: 150px;
+}
 
+.lighttext{
+  font-weight: lighter;
+}
 
+.quote{
+  font-weight: bold;
+  font-style: italic;
+}
 
 
 

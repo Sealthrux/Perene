@@ -580,12 +580,97 @@ h1 {
   font-size: 1rem;
   text-align: left;
 }
+/*Contact page*/
+.containercontactos{
+  display: inline-flex;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contactosleft{
+  padding-top: 180px;
+  padding-left: 100px;
+  width: 50%;
+  height: auto;
+}
+
+.contacto{
+  display: block;
+  margin-top: 60px;
+}
+
+.LineStartGalContacto{
+  border-color: #6fa550;
+  width: 370px;
+  margin-left: 10.5%; 
+  margin-top: -15px;
+}
+
+.pereneipv{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 10.5%;
+}
+
+.contactosright{
+  text-align: end;
+  padding-top: 510px;
+  padding-right: 180px;
+  padding-left: 50px;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+
+.LiaBold{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/*Ver Mais*/
+.container_vermais{
+    width: 100%;
+  height: auto;
+  margin-top: 150px;
+  color: white;
+}
+
+.info{
+  margin-left: 15%;
+  font-weight: bold;
+}
+
+.autor{
+  font-size: 2rem;
+}
+
+.titulo{
+  margin-top: -30px;
+  font-size: 3rem;
+}
+
+.descricao{
+  margin-left: 15%;
+  font-size: 1rem;
+  margin-right: 15%;
+  line-height: 1.5;
+}
+
+.fotografia{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
 
 
 
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .topbar-ul {
     display: flex;
     justify-content: space-around;

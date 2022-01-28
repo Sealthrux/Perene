@@ -597,9 +597,6 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
   .burger {
     display: block;
     cursor: pointer;

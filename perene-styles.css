@@ -405,29 +405,36 @@ h1 {
 .GalImagePresetLeftParcerias{
   width: 300px;
   display: inline-block;
-  margin-top: 9.5rem;
+  margin-top: 12rem;
+  margin-left: 15%;
 
 }
 
+.ParceriasBox{
+  width: 100%;
+}
+
 .smalltextparceriasTitulo{
+  width: auto;
   display: inline-block;
-  margin-left: 5rem;
+  margin-left: 17.8%;
   font-family: "Montserrat";
   color: #ffffff;
   font-weight: bold;
   text-align: left;
-  font-size: 3.6rem;
+  font-size: 2rem;
   padding: 0;
 }
 .smalltextparcerias{
+  width: 34%;
   display: inline-block;
-  margin-left: 5rem;
+  margin-left: 54%;
   font-family: "Montserrat";
   color: #ffffff;
-  font-weight: 400;
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 1rem;
   padding: 0;
+  margin-top: -10%;
 }
 .LineGreenParcerias{
   height: 2px;
@@ -530,6 +537,7 @@ h1 {
   font-size: 1rem;
   padding-right: 40px;
   text-align: left;
+  line-height: 1.5;
 }
 
 .alexandre{
@@ -556,6 +564,7 @@ h1 {
   padding-right: 40px;
   font-size: 1rem;
   text-align: left;
+  line-height: 1.5;
 }
 .grid-3 {
   font-family: montserrat;
@@ -567,6 +576,7 @@ h1 {
   padding-right: 40px;
   font-size: 1rem;
   text-align: left;
+  line-height: 1.5;
 }
 .grid-4 {
   font-family: montserrat;
@@ -579,6 +589,7 @@ h1 {
   padding-right: 40px;
   font-size: 1rem;
   text-align: left;
+  line-height: 1.5;
 }
 /*Contact page*/
 .containercontactos{
@@ -633,7 +644,8 @@ h1 {
 
 /*Ver Mais*/
 .container_vermais{
-    width: 100%;
+  font-family: "Montserrat";
+  width: 100%;
   height: auto;
   margin-top: 150px;
   color: white;
@@ -665,8 +677,16 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto; 
+
 }
 
+.wave-wrap1 {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: -3%;
+}
 
 
 
@@ -678,10 +698,13 @@ h1 {
     width: 70%;
     text-decoration: none;
     list-style: none;
+    
   }
+
+ 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .burger {
     display: block;
     cursor: pointer;

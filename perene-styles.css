@@ -384,6 +384,7 @@ h1 {
   margin-right: 150px;
 }
 
+
 .LineStartGalSobre2{
   width: 40%;
   margin-left: 150px;
@@ -403,21 +404,27 @@ h1 {
   font-style: italic;
 }
 .GalImagePresetLeftParcerias{
-  width: 300px;
+  width: 400px;
   display: inline-block;
-  margin-top: 12rem;
   margin-left: 15%;
-
 }
-
-.ParceriasBox{
+.ParceriasBox1{
   width: 100%;
+  display: inline-flex;
+  margin-top: 10rem;
+  align-items: center;
 }
-
-.smalltextparceriasTitulo{
-  width: auto;
+.ParceriasBoxplus{
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+.parceriastextbox{
   display: inline-block;
-  margin-left: 17.8%;
+  width: 60%;
+  padding-left: 17rem;
+}
+.smalltextparceriasTitulo{
   font-family: "Montserrat";
   color: #ffffff;
   font-weight: bold;
@@ -426,22 +433,18 @@ h1 {
   padding: 0;
 }
 .smalltextparcerias{
-  width: 34%;
-  display: inline-block;
-  margin-left: 54%;
+  width: 60%;
   font-family: "Montserrat";
   color: #ffffff;
-  text-align: left;
   font-size: 1rem;
   padding: 0;
-  margin-top: -10%;
 }
 .LineGreenParcerias{
   height: 2px;
   border: none;
   background: #6fa550;
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 

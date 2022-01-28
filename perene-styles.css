@@ -131,7 +131,7 @@ h1 {
   font-weight: medium;
   text-align: left;
   margin-top: 150px;
-  margin-left: 150px;
+  margin-left: 10.5%;
   margin-right: 150px;
   margin-bottom: 150px;
 }
@@ -428,7 +428,147 @@ h1 {
   font-size: 1.6rem;
   padding: 0;
 }
+/*sobre page*/
+.Operene{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+}
 
+.LineStartGalSobre2{
+  border-color: #6fa550;
+  width: 60%;
+  margin-left: 10.5%; 
+}
+
+.title2{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 10.5%;
+  margin-right: 150px;
+}
+
+.lighttext{
+  font-weight: lighter;
+}
+
+.quote{
+  font-weight: bold;
+}
+
+.WangQuote{
+  font-weight: light;
+}
+
+.abouttext{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 12%;
+  margin-right: 10.5%;
+  margin-bottom: 30px;
+  width: 55%;
+}
+
+.abouttext2{
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+  margin-bottom: 30px;
+}
+
+.AboutLight{
+  font-weight: lighter;
+}
+
+
+/equipa page/
+.grid-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  display: grid ;
+  width:80%;
+  height: 90%;
+  grid-template-columns: auto auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 20px;
+}
+.grid-1 {
+  font-family: montserrat;
+  color: white;
+  border-bottom: 1px solid rgba(111,165,80, 0.8);
+  border-right: 1px solid rgba(111,165,80, 0.8);
+  padding: 20px;
+  font-size: 1rem;
+  padding-right: 40px;
+  text-align: left;
+}
+
+.alexandre{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.IMGalexandre{
+  border-radius: 50%;
+  width:250px;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.grid-2 {
+  font-family: montserrat;
+  color: white;
+  border-bottom: 1px solid rgba(111,165,80, 0.8);
+  border-left: 1px solid rgba(111,165,80, 0.8);
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 1rem;
+  text-align: left;
+}
+.grid-3 {
+  font-family: montserrat;
+  color: white;
+  border-top: 1px solid rgba(111,165,80, 0.8);
+  border-right: 1px solid rgba(111,165,80, 0.8);
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+  font-size: 1rem;
+  text-align: left;
+}
+.grid-4 {
+  font-family: montserrat;
+  color: white;
+  border-top: 1px solid rgba(111,165,80, 0.8);
+  border-left: 1px solid rgba(111,165,80, 0.8);
+  padding: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 1rem;
+  text-align: left;
+}
 
 
 
